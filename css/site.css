@@ -212,8 +212,8 @@ body > div
     height: 10vh;
     width: auto;
     position: absolute;
-    left: 0;
-    top: 0;
+    left: 15px;
+    top: 15px;
 }
 .icon{
     color: white;
