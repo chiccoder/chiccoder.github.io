@@ -64,40 +64,7 @@
         transform: translateX(0);
     }
 }
-/* html {
-    background:linear-gradient(0deg,rgba(63, 191, 191, 0.3),rgba(255,0,150,0.3)),url(../images/background.jpg);
-    background-size:cover;
-    font-family: 'Raleway', sans-serif;
-}
-body {
-    margin: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 100%  
-}
-.background {
-   width: 100%;
-    position: absolute;
-    z-index: -2;
-}
-.overlay {
-    flex-grow: 1;
-}
-
-
-body > div
-{
-    transition:all 2s linear;
-}
-.rotate:hover
-{
-    -webkit-transform: rotateZ(-360deg);
-    -ms-transform: rotateZ(-360deg);
-    transform: rotateZ(-360deg);
-}
- */
-  
+ 
   html {
     height: 100%;
     background:linear-gradient(0deg,rgba(63, 191, 191, 0.3),rgba(255,0,150,0.3)),url(../images/background.jpg);
@@ -236,4 +203,11 @@ body > div
       flex-direction: column;
     }
 }
-  
+.cardWrapper{
+    flex-wrap: wrap;
+}
+.card{
+    max-width: 500px;
+    max-height: 500px;
+    background-color: white;
+}
