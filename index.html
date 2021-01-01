@@ -1,31 +1,57 @@
 <!DOCTYPE html>
-<html>
+<html lang='en'>
+
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
-    <title>Chiccoder</title>
+    <title>Laura Gimbel</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Give+You+Glory&family=Roboto&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/site.css">
-    <link rel="icon" type="image/png" href="/images/logo.png">
+    <link rel="stylesheet" type="text/css" href="./site.css">
+    <script src="https://use.fontawesome.com/89928cf303.js"></script>
+    <link rel="icon" type="image/png" href="./logo.png">
 </head>
+
 <body>
-    <div class="wrapper">
-         
-        <header class="header">
-           
-            <nav class='navigation'>
-                <a class='invisibleLink' href="index.html"></a><img class='logo rotate' src='./images/logo.png' alt='logo'/></a>
-                <a class='swing underline'>Home</a>
-                <!-- <a class='swing' href='html/about.html'>About</a> -->
-                <!-- <a class='swing' href='html/design.html'>Designs</a> -->
-                <a class='swing' href='html/contact.html'>Contact</a>
-            </nav>
-        </header>
-        <div class='main'>
-            <div class="mediumCircle circle rotate">I'm Laura Gimbel</div>
-            <div class="smallCircle circle rotate">Hello there!</div>
-            <div class="largeCircle circle rotate">I develop software, design things, and play <br> disc golf</div>
+    <div class="card">
+
+        <div id='feature'>
+            <div>
+                <h1 id="name">Laura Gimbel</h1>
+                <div id="title">Software Engineer</div>
+            </div>
+            <div class="portrait"><img class="clip-circle" src='./laura.jpg' alt="profile picture"></div>
         </div>
-        <footer class="footer"></footer>
+        <div id='social'>
+            <a href="https://www.linkedin.com/in/laura-g-67624743">
+                <i class="icon fa fa-linkedin-square" aria-hidden="true"></i>
+                <div class='hideText'>LinkedIn</div>
+            </a>
+            <a href="http://instagram.com/chiccoder">
+                <i class="icon fa fa-instagram" aria-hidden="true"></i>
+                <div class='hideText'>Instagram</div>
+            </a>
+            <a href="http://twitter.com/chiccoder">
+                <i class="icon fa fa-twitter-square" aria-hidden="true"></i>
+                <div class='hideText'>Twitter</div>
+            </a>
+            <a href="http://github.com/chiccoder">
+                <i class="icon fa fa-github-square" aria-hidden="true"></i>
+                <div class='hideText'>Github</div>
+            </a>
+            <!-- <a href="/uploads/media/default/0001/01/540cb75550adf33f281f29132dddd14fded85bfc.pdf">example</a> -->
+        </div>
+        <div id='aboutWrapper'>
+            <div id='about'>
+                <h2>About me:</h2>
+                <p id='aboutText'>
+                    Hello! I'm a software engineer at Nelnet and live in Lincoln, Nebraska. When I'm not coding, I like
+                    to read, play video games, and design SVGs to be used with my Cricut maker.
+                </p>
+            </div>
+        </div>
     </div>
 </body>
+
 </html>

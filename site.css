@@ -1,0 +1,112 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+html{
+  font-family: 'Raleway', sans-serif;
+  font-weight: lighter;
+}
+
+body {
+  background-image: url(./background.jpg);
+  background-color: #cccccc;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; 
+    display: -webkit-box; 
+    display: -ms-flexbox; 
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+ }
+
+.clip-circle {
+  -webkit-clip-path: circle(150px at center);
+          clip-path: circle(150px at center);
+  max-width: 360px;
+  
+}
+
+/* contact */
+.icon{
+  color: #424256;
+  margin: 0 16px;
+  font-size: 3em !important;
+}
+a{
+  text-decoration: none;
+}
+/* end contact */
+
+.card {
+-webkit-box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+-webkit-transition: 0.3s;
+-o-transition: 0.3s;
+transition: 0.3s;
+background-color: rgba(255, 255, 255, 0.8);
+margin: 64px;
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-orient: vertical;
+-webkit-box-direction: normal;
+    -ms-flex-direction: column;
+        flex-direction: column;
+padding: 16px;
+}
+#feature {
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-align: center;
+    -ms-flex-align: center;
+        align-items: center;
+-webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+        justify-content: space-evenly;
+-ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+#name{
+font-family: 'Give You Glory', cursive;
+font-size: 2.5em;
+text-align: center;
+padding: 16px;
+}
+#title{
+text-align: center;
+}
+#social{
+display:-webkit-box;
+display:-ms-flexbox;
+display:flex;
+-webkit-box-pack: center;
+    -ms-flex-pack: center;
+        justify-content: center;
+}
+#aboutWrapper {
+padding:16px;
+display:-webkit-box;
+display:-ms-flexbox;
+display:flex;
+
+-webkit-box-pack: center;
+
+    -ms-flex-pack: center;
+
+        justify-content: center;
+}
+#aboutText{
+max-width: 400px;
+}
+.hideText{
+  display:none;
+}
