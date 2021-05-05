@@ -1,3 +1,3 @@
 # chiccoder.github.io
 
-My simple portfolio website. Can be found at http://lgimbel.com/
+My portfolio website, created with html and css. Can be found at http://chiccoder.github.io/
