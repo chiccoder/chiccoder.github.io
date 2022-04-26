@@ -14,7 +14,7 @@ body {
   background-image: url(./background.jpg);
   background-color: #cccccc;
   background-repeat: no-repeat;
-  background-position: center;
+  /* background-position: center; */
   background-size: cover; 
     display: -webkit-box; 
     display: -ms-flexbox; 
@@ -25,6 +25,7 @@ body {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+  color: white;
  }
 
 .clip-circle {
@@ -36,7 +37,7 @@ body {
 
 /* contact */
 .icon{
-  color: #424256;
+  color: white;
   margin: 0 16px;
   font-size: 3em !important;
 }
@@ -51,7 +52,7 @@ a{
 -webkit-transition: 0.3s;
 -o-transition: 0.3s;
 transition: 0.3s;
-background-color: rgba(255, 255, 255, 0.8);
+background-color: rgba(68, 68, 68, 0.8);
 margin: 64px;
 display: -webkit-box;
 display: -ms-flexbox;
